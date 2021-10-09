@@ -1,0 +1,7 @@
+body{
+	position: relative;
+	background: url("../images/space11.jpg") no-repeat;   /*  -CC - Robson - https://www.flickr.com/photos/_robson_/46477048644/in/photostream/
+*/
+	background-size: 100% 100%;
+	background-color: black;
+}

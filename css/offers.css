@@ -1,0 +1,26 @@
+
+.offersTab{
+	display: block;
+	float: left;
+	height: auto;
+	margin: 10px;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.offersTab > p{
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 25px;
+	height: 55px;
+	background-color: purple;
+	width: 200px;
+	position: relative;
+	z-index: 1;
+}
+
+h1{
+	clear: both;
+	color: white;
+}

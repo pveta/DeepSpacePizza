@@ -1,0 +1,102 @@
+body{
+	/*background-color: #0b0e6b; */
+	position: relative;
+	background: url("../images/space5.jpg") no-repeat;   /*  CC - Nasa  - https://search.creativecommons.org/photos/de9fd9fe-5613-4056-91ef-41c1701ec114
+ */
+	background-size: 100% 100%;
+	background-color: black;
+}
+
+
+
+#welcome{
+	background-color: rgba(128, 128, 128, 0.5);
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+}
+
+#welcome h1{
+	margin: 0px;
+	margin: 0 auto;
+	width: 755px;
+	color: white;
+	font-size: 100px;
+}
+
+#welcome p{
+	margin: 0px;
+	font-size: 50px;
+	color: white;
+}
+
+
+@media only screen and (max-width: 764px){
+	#welcome h1{
+		width: 100%;
+	}
+
+}
+
+
+.infoTab{
+	text-align: left;
+	display: inline-block;
+	background-color: purple;
+	border-radius: 15px;
+	color: white;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.infoTab > img{
+	z-index: 0;
+	opacity: 0.5;
+	position: relative;
+	width: auto;
+	height: 300px;
+}
+
+@media only screen and (max-width: 500px){
+	.infoTab > img{
+		width: 100%;
+	}
+}
+
+.infoTab .infoTabText{
+	z-index: 1;
+	position: absolute;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	top: 0%;
+}
+
+.infoTabText h3{
+	padding-bottom: 0px;
+	border-bottom: 2px solid white;
+	font-size: 25px;
+}
+
+.infoTabText a:link, .infoTabText a:visited{   /*unvisited and visited*/
+	color: white;
+}
+
+
+.infoTabText a:hover{
+	color: grey;
+}
+
+
+.infoTab {
+	position: relative;
+}
+
+#allInfoTabs{
+	text-align: center;
+}
+

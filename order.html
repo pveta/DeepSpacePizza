@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Order</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/order.css">
+		<link rel="stylesheet" href="css/pageBg.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img src="images/testPizzaLogo.png" class="logo" width="500" height="380" alt="Logo of the restaurant"></a>
+			Deep Space Pizza
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="offers.html">Offers</a>
+			<a href="locations.html">Locations</a>
+			<a href="order.html">Order</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="play.html">Play To Win</a>
+			<a href="login.html">Login</a>
+			<a href="signup.html">Sign up</a>
+
+			<input type="text" name="searchBar" placeholder="Search...">
+		</nav>
+
+		<h1>Order</h1>
+
+
+
+		<div id="menu">
+
+		<h2>Pizza</h2>
+
+		<div class="menuItemTab">
+			<img src="images/pizza18.jpg" width="800" height="533" alt="Pepperoni Pizza">
+			<h3 class="itemName">Pepperoni:</h3>
+			<p>&euro;<span class="price">16.00</span></p>
+
+		
+			<select name="pizzaSize" class="pizzaSize">
+				<optgroup label="Size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</optgroup>
+			</select>
+
+			<button type="button" onclick="addItem(0)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/pizza11.jpg" width="752" height="500" alt="Margherita Pizza">
+			<h3 class="itemName">Margherita:</h3>
+			<p>&euro;<span class="price">16.00</span></p>
+
+			<select name="pizzaSize" class="pizzaSize">
+				<optgroup label="Size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</optgroup>
+			</select>
+
+			<button type="button" onclick="addItem(1)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/pizza6.jpg" width="1024" height="683" alt="Meat Pizza">
+			<h3 class="itemName">Meat Pizza:</h3>
+			<p>&euro;<span class="price">16.00</span></p>
+
+			<select name="pizzaSize" class="pizzaSize">
+				<optgroup label="Size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</optgroup>
+			</select>
+
+			<button type="button" onclick="addItem(2)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/pizza21.jpg" width="1024" height="683" alt="Hawaiian Pizza">
+			<h3 class="itemName">Hawaiian:</h3>
+			<p>&euro;<span class="price">16.00</span></p>
+
+			<select name="pizzaSize" class="pizzaSize">
+				<optgroup label="Size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</optgroup>
+			</select>
+
+			<button type="button" onclick="addItem(3)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/pizza22.jpg" width="1023" height="678" alt="Vegetarian Pizza">
+			<h3 class="itemName">Vegeterian:</h3>
+			<p>&euro;<span class="price">16.00</span></p>
+
+			<select name="pizzaSize" class="pizzaSize">
+				<optgroup label="Size">
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</optgroup>
+			</select>
+
+			<button type="button" onclick="addItem(4)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+
+		<h2>Sides</h2>
+
+		<div class="menuItemTab">
+			<img src="images/fries.jpg" width="1024" height="685" alt="Fries">
+			<h3 class="itemName">Fries:</h3>
+			<p>&euro;<span class="price">4.00</span></p>
+			<button type="button" onclick="addItem(5)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/wedges.jpg" width="1024" height="686" alt="Wedges">
+			<h3 class="itemName">Wedges:</h3>
+			<p>&euro;<span class="price">4.00</span></p>
+			<button type="button" onclick="addItem(6)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/garlicbread.jpg" width="1024" height="683" alt="Garlic Bread">
+			<h3 class="itemName">Garlic Bread:</h3>
+			<p>&euro;<span class="price">4.00</span></p>
+			<button type="button" onclick="addItem(7)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/nachos.jpg" width="1024" height="678" alt="Fries">
+			<h3 class="itemName">Nachos:</h3>
+			<p>&euro;<span class="price">4.00</span></p>
+			<button type="button" onclick="addItem(8)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+
+		<h2>Chicken</h2>
+
+		<div class="menuItemTab">
+			<img src="images/wings2.jpg" width="1024" height="681" alt="spicy Wings">
+			<h3 class="itemName">Spicy Wings:</h3>
+			<p>&euro;<span class="price">3.00</span></p>
+			<button type="button" onclick="addItem(9)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+		<div class="menuItemTab">
+			<img src="images/wings3.jpg" width="800" height="607" alt="Fries">
+			<h3 class="itemName">BBQ wings:</h3>
+			<p>&euro;<span class="price">3.00</span></p>
+			<button type="button" onclick="addItem(10)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+		<div class="menuItemTab">
+			<img src="images/wings1.jpg" width="1024" height="681" alt="Fries">
+			<h3 class="itemName">Teriyaki Wings:</h3>
+			<p>&euro;<span class="price">3.00</span></p>
+			<button type="button" onclick="addItem(11)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+
+		<h2>Drinks</h2>
+
+		<div class="menuItemTab">
+			<img src="images/cola2.jpg" width="800" height="600" alt="Coca-Cola can">
+			<h3 class="itemName">Coca-Cola:</h3>
+			<p>&euro;<span class="price">2.00</span></p>
+			<button type="button" onclick="addItem(12)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+		<div class="menuItemTab">
+			<img src="images/fanta1.jpg" width="1024" height="683" alt="Fanta can">
+			<h3 class="itemName">Fanta:</h3>
+			<p>&euro;<span class="price">2.00</span></p>
+			<button type="button" onclick="addItem(13)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/sprite.jpg" width="1024" height="768" alt="Sprite can">
+			<h3 class="itemName">Sprite:</h3>
+			<p>&euro;<span class="price">2.00</span></p>
+			<button type="button" onclick="addItem(14)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+
+		<div class="menuItemTab">
+			<img src="images/water4.jpg" width="1023" height="768" alt="Bottle of water">
+			<h3 class="itemName">Water:</h3>
+			<p>&euro;<span class="price">2.00</span></p>
+			<button type="button" onclick="addItem(15)">+</button>
+			<p class="quantity">0</p>
+		</div>
+
+		</div>
+
+
+
+		<div id="cartTab">
+			<h2>Cart</h2>
+			<div id="cart"></div>
+			<p>Total: &euro;<span id="total">0</span><p>
+
+			<button type="button">Checkout</button>
+
+		</div>
+
+
+
+		<footer>
+			<a>About Us</a>
+			<a href="locations.html">Contact Us</a>
+			<a>Privacy Policy</a>
+			<a>Cookies</a>
+		</footer>
+
+
+		<script type="text/javascript" src="scripts/order.js"></script>
+
+	</body>
+
+</html>

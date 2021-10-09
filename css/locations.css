@@ -1,0 +1,54 @@
+#map{
+	display: block;
+	float: left;
+	width: 40%;
+	margin-left: 10px;
+}
+
+
+
+#allMapButtons{
+	display: block;
+	float: left;
+	margin: 10px;
+	width: 40%;
+	height: auto;
+}
+
+
+.mapButton{
+	width: 110px;
+	height: 200px;
+	float: left;
+	margin: 2px;
+	padding: 2px;
+}
+
+
+/*.mapButton > p{
+	color: black;
+}*/
+
+
+h1, p{
+	color: white;
+}
+
+
+
+
+@media screen and (max-width: 1055px){
+	#allMapButtons{
+		display: block;
+		float: left;
+		margin: 10px;
+		width: 98%;
+		height: auto;
+		/*height: 100%;*/
+	}
+
+
+	#map{
+		width: 80%;
+	}
+}

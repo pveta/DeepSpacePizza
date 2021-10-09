@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Gallery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/slideshow.css">
+		<link rel="stylesheet" href="css/pageBg.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+
+	<body>
+
+
+
+		<header>
+			<a href="index.html"><img src="images/testPizzaLogo.png" class="logo" width="500" height="380" alt="Logo of the restaurant"></a>
+			Deep Space Pizza
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="offers.html">Offers</a>
+			<a href="locations.html">Locations</a>
+			<a href="order.html">Order</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="play.html">Play To Win</a>
+			<a href="login.html">Login</a>
+			<a href="signup.html">Sign up</a>
+
+			<input type="text" name="searchBar" placeholder="Search...">
+		</nav>
+
+		<h1>Gallery</h1>
+
+		<div class="slideshow">
+			<div id="numberText">1 / 5</div>
+
+			<div id="controls">
+				<a id="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a id="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+
+
+			<div class="slide fade">
+				<img src="images/pizzasign1.jpg" width="600" height="800" alt="pizza sign">   <!-- CC - byronV2 - https://www.flickr.com/photos/woolamaloo_gazette/49585496051/
+ -->
+			</div>
+
+
+			<!-- NEW FROM HERE DOWN -->
+
+			<div class="slide fade">
+				<img src="images/arcade4.jpg" width="450" height="600" alt="arcade photo">  <!-- CC - JordiFerrer - https://commons.wikimedia.org/wiki/File:Space_Invaders_-_Midway%27s.JPG
+ -->
+			</div>
+
+
+			<div class="slide fade">
+				<img src="images/store.jpg" width="800" height="534" alt="store">  <!-- CC - Duncan Rawlinson - https://www.flickr.com/photos/thelastminute/32806478547/ -->
+			</div>
+
+
+			<div class="slide fade">
+				<img src="images/space4.jpg" width="1024" height="683" alt="troopers and pizza">  <!-- CC - DocChewbacca - https://search.creativecommons.org/photos/61683228-fb0d-46cb-a33c-1df4c205e48b -->
+			</div>
+
+
+			<div class="slide fade">
+				<img src="images/arcade2.jpg" width="800" height="600" alt="arcade photo">  <!-- CC - Arcade Perfect - https://commons.wikimedia.org/wiki/File:Retrovolt_Arcade_2017_-_Arcade_Machines_2.jpg -->
+			</div>
+			
+
+		</div>
+
+
+		<div id="startStop">
+		<button type="button" id="start" onclick="startSlideshow()">Start</button>
+		<button type="button" id="stop" onclick="stopSlideshow()">Stop</button>
+		</div>
+
+
+		<footer>
+			<a>About Us</a>
+			<a href="locations.html">Contact Us</a>
+			<a>Privacy Policy</a>
+			<a>Cookies</a>
+		</footer>
+
+		<script type="text/javascript" src="scripts/slideshow.js"></script>
+	</body>
+	
+</html>

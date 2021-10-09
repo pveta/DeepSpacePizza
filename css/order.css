@@ -1,0 +1,94 @@
+body{
+	position: absolute;
+	width: 100%;
+}
+
+
+
+.menuItemTab{
+	display: block;
+	float: left;
+	background-color: purple;
+	width: 170px;
+	height: 160px;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.menuItemTab > * {
+	display: inline-block;
+}
+
+.menuItemTab > img{
+	clear: both;
+	display: block;
+	width: 100px;
+	height: auto;
+}
+
+
+h1, h2{
+	clear: both;
+	color: white;
+}
+
+h3, p{
+	color: white;
+}
+
+
+
+.menuItemTab .quantity{
+	padding: 2px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+
+
+#menu{
+	display: block;
+	float: left;
+	width: 60%;
+	position: relative;
+}
+
+
+
+#menu > h2{
+	padding-top: 30px;
+	margin-bottom: 0px;
+}
+
+
+#cartTab{
+	display: block;
+	float: left;
+	width: 30%;
+	position: sticky;
+	position: -webkit-sticky;
+	margin: 10px;
+	background-color: purple;
+	padding: 10px;
+	top: 0;
+}
+
+
+.menuItemTab > p{
+	margin-top: 0px;
+}
+
+p.quantity{
+	color: black;
+}
+
+
+
+
+@media screen and (max-width: 375px){
+	#cartTab{
+		position: relative;
+		width: 80%;
+	}
+}

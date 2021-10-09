@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Play To Win</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/play.css">
+		<link rel="stylesheet" href="css/pageBg.css">
+		<link rel="stylesheet" href="css/footer.css">
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html"><img src="images/testPizzaLogo.png" class="logo" width="500" height="380" alt="Logo of the restaurant"></a>
+			Deep Space Pizza
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="offers.html">Offers</a>
+			<a href="locations.html">Locations</a>
+			<a href="order.html">Order</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="play.html">Play To Win</a>
+			<a href="login.html">Login</a>
+			<a href="signup.html">Sign up</a>
+
+			<input type="text" name="searchBar" placeholder="Search...">
+		</nav>
+
+		<h1>Play To Win</h1>
+
+		<p>Destroy 25 asteroids within 30 seconds to win a free large pizza and a shirt</p>
+		<p>Controls: Press "Start" to begin the game, click on the asteroids to destroy them</p>
+
+		<a href="#game"><button type="button" id="start" onclick="start()">Start</button></a>  
+		<button type="button" id="reset" onclick="reset()">Reset</button>
+
+
+		<div class="playArea" id="game">
+
+			<div id="dashboard">
+				<p id="timer">Time: 0s</p>
+				<p>Score: <span id="score">0</span></p>
+			</div>
+
+
+			<button id="asteroidButton" onclick="destroyed()"><img src="images/asteroidCut2.png" width="354" height="356" alt="Asteroid"></button>   <!-- CC - Pixel lifetime - https://www.flickr.com/photos/189932066@N04/50292057702/
+ -->
+		</div>
+
+
+
+		
+		<footer>
+			<a>About Us</a>
+			<a href="locations.html">Contact Us</a>
+			<a>Privacy Policy</a>
+			<a>Cookies</a>
+		</footer>
+
+
+		<script type="text/javascript" src="scripts/play.js"></script>
+
+	</body>
+
+</html>

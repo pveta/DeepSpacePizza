@@ -1,0 +1,29 @@
+footer{
+	display: block;
+	position: relative;
+	bottom: 0;
+	clear: both;
+	background-color: #424647;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+
+
+footer a{
+	display: inline-block;
+	background-color: #424647;
+	color: black;
+	font-size: 18px;
+	padding: 14px 2%;
+	float: left;
+	text-decoration: none;
+}
+
+
+footer a:link, footer a:visited{   /*unvisited and visited*/
+	text-decoration: none;
+}
