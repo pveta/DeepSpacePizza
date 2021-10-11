@@ -5,8 +5,15 @@
 	height: 500px;
 	overflow: hidden;
 	background: url("../images/space7.jpg") no-repeat;
-	background-size: 100vw 100vh;
+	background-size: 100% 100%;
+	/*background-size: 100vw 100vh;*/
 	background-color: #0b0e6b;
+}
+
+@media only screen and (max-height: 500px){
+	.playArea {
+		height: 300px;
+	}
 }
 
 
